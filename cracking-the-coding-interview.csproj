@@ -1,0 +1,142 @@
+﻿<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{B0E7839B-ECA3-4463-9F70-0E4503F0D660}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ConsoleApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>cracking_the_coding_interview</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".git\COMMIT_EDITMSG" />
+    <None Include=".git\config" />
+    <None Include=".git\description" />
+    <None Include=".git\HEAD" />
+    <None Include=".git\hooks\applypatch-msg.sample" />
+    <None Include=".git\hooks\commit-msg.sample" />
+    <None Include=".git\hooks\fsmonitor-watchman.sample" />
+    <None Include=".git\hooks\post-update.sample" />
+    <None Include=".git\hooks\pre-applypatch.sample" />
+    <None Include=".git\hooks\pre-commit.sample" />
+    <None Include=".git\hooks\pre-merge-commit.sample" />
+    <None Include=".git\hooks\pre-push.sample" />
+    <None Include=".git\hooks\pre-rebase.sample" />
+    <None Include=".git\hooks\pre-receive.sample" />
+    <None Include=".git\hooks\prepare-commit-msg.sample" />
+    <None Include=".git\hooks\push-to-checkout.sample" />
+    <None Include=".git\hooks\update.sample" />
+    <None Include=".git\index" />
+    <None Include=".git\info\exclude" />
+    <None Include=".git\logs\HEAD" />
+    <None Include=".git\logs\refs\heads\main" />
+    <None Include=".git\logs\refs\remotes\origin\HEAD" />
+    <None Include=".git\logs\refs\remotes\origin\main" />
+    <None Include=".git\objects\1e\0fe968e0bf09d4228b2d5ef19ad833be9aed73" />
+    <None Include=".git\objects\34\72331e10ef9947f548523623ea394e540ffa55" />
+    <None Include=".git\objects\35\4fbc85a43ef0f1ee054cf5e25532abd7d4ae9c" />
+    <None Include=".git\objects\3f\7209c4ecb4448bdff106886db7a245c0a1fcc5" />
+    <None Include=".git\objects\52\f3a7dbe392a388ad2727c9f239c17581a3a65c" />
+    <None Include=".git\objects\5a\ae2d75eeb28da54caa948750362f4c37b45e08" />
+    <None Include=".git\objects\72\b81019ec92d58588995c2cac81c8ff1d54588e" />
+    <None Include=".git\objects\81\d558190e2ce0a1b54ea3c41fdb51344188051f" />
+    <None Include=".git\objects\85\24677e7e056fb3a9333bac06a8a490f1ee2b48" />
+    <None Include=".git\objects\8c\019aa13d241cd34c5056093777a9e6a6de19a4" />
+    <None Include=".git\objects\9d\7c26736936ace107ecb3fdcadf6cfb5adcd1fa" />
+    <None Include=".git\objects\e6\9de29bb2d1d6434b8b29ae775ad8c2e48c5391" />
+    <None Include=".git\objects\f5\e33098be8567f2752a91e58c49507817462352" />
+    <None Include=".git\objects\ff\17715e630f0acd31adb17bb64322f95f9e2a3f" />
+    <None Include=".git\objects\pack\pack-5b6728befaa907c7eae5d0e7033804c94dc46158.idx" />
+    <None Include=".git\objects\pack\pack-5b6728befaa907c7eae5d0e7033804c94dc46158.pack" />
+    <None Include=".git\packed-refs" />
+    <None Include=".git\refs\heads\main" />
+    <None Include=".git\refs\remotes\origin\HEAD" />
+    <None Include=".git\refs\remotes\origin\main" />
+    <None Include=".vs\cracking-the-coding-interview\v16\.suo" />
+    <None Include=".vs\slnx.sqlite" />
+    <None Include=".vs\VSWorkspaceState.json" />
+    <None Include="chapter1_arrays_and_strings\extras\__pycache__\AllRotations.cpython-310.pyc" />
+    <None Include="chapter1_arrays_and_strings\IsUnique1-1.jl" />
+    <None Include="chapter2_linked_lists\__pycache__\LinkedList.cpython-310.pyc" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="chapter1_arrays_and_strings\CheckPermuatation1-2.py" />
+    <Content Include="chapter1_arrays_and_strings\extras\AllRotations.py" />
+    <Content Include="chapter1_arrays_and_strings\IsUnique1-1.py" />
+    <Content Include="chapter1_arrays_and_strings\OneAway1-5.py" />
+    <Content Include="chapter1_arrays_and_strings\PalindromePermutation1-4.py" />
+    <Content Include="chapter1_arrays_and_strings\RotateMatrix1-7.py" />
+    <Content Include="chapter1_arrays_and_strings\StringCompression1-6.py" />
+    <Content Include="chapter1_arrays_and_strings\StringRotation1-9.py" />
+    <Content Include="chapter1_arrays_and_strings\URLify1-3.py" />
+    <Content Include="chapter1_arrays_and_strings\ZeroMatrix1-8.py" />
+    <Content Include="chapter2_linked_lists\DeleteMiddleNode2-3.py" />
+    <Content Include="chapter2_linked_lists\LinkedList.py" />
+    <Content Include="chapter2_linked_lists\RemoveDups2-1.py" />
+    <Content Include="chapter2_linked_lists\ReturnKthToLast2-2.py" />
+    <Content Include="chapter2_linked_lists\SumLists2-5.py" />
+    <Content Include="chapter2_linked_lists\__init__.py" />
+    <Content Include="start.py" />
+    <Content Include="__init__.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="chapter1_arrays_and_strings\IsUnique1-1.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".git\objects\info\" />
+    <Folder Include=".git\refs\tags\" />
+    <Folder Include="chapter10_sorting_and_searching\" />
+    <Folder Include="chapter11_testing\" />
+    <Folder Include="chapter12_c_and_cpp\" />
+    <Folder Include="chapter13_java\" />
+    <Folder Include="chapter14_databases\" />
+    <Folder Include="chapter15_threads_and_locks\" />
+    <Folder Include="chapter16_moderate\" />
+    <Folder Include="chapter17_hard\" />
+    <Folder Include="chapter3_stacks_and_queues\" />
+    <Folder Include="chapter4_trees_and_graphs\" />
+    <Folder Include="chapter5_bit_manipulation\" />
+    <Folder Include="chapter6_math_and_logic_puzzles\" />
+    <Folder Include="chapter7_object_oriented_design\" />
+    <Folder Include="chapter8_recursion_and_dynamic_programming\" />
+    <Folder Include="chapter9_system_design_and_scalability\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

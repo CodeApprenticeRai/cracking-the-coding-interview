@@ -1,0 +1,6 @@
+C:\1\cracking-the-coding-interview\bin\Debug\ConsoleApplication.exe
+C:\1\cracking-the-coding-interview\bin\Debug\ConsoleApplication.pdb
+C:\1\cracking-the-coding-interview\obj\x86\Debug\cracking-the-coding-interview.csproj.AssemblyReference.cache
+C:\1\cracking-the-coding-interview\obj\x86\Debug\cracking-the-coding-interview.csproj.CoreCompileInputs.cache
+C:\1\cracking-the-coding-interview\obj\x86\Debug\ConsoleApplication.exe
+C:\1\cracking-the-coding-interview\obj\x86\Debug\ConsoleApplication.pdb
